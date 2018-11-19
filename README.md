@@ -1,6 +1,10 @@
 # CPNT 262 - Wordpress - Assignment 3 
 
-Grabbing Naked Wordpress theme. 
+## Sechelt Theme
+
+Based off of the naked-wordpress theme. Credits left intact at the bottom of this document. 
+
+With thanks to [@andjosh][0] and their team. 
 
 
 naked-wordpress
