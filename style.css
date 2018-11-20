@@ -1,6 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Karla|Quicksand);
 @import url(https://use.fontawesome.com/releases/v5.5.0/css/all.css);
 @import url('styles/boots-bones.css');
+
+/* CUSTOM VARIABLES */
+:root {
+
+}
 /*
 Theme Name: Naked Wordpress
 Theme URI: http://bckmn.com/naked-wordpress
@@ -485,18 +490,60 @@ header nav {
   background-color: red;
   width: 100%;
   display: flex;
+  height: 125px;
+}
+
+header nav .menu-main-menu-container {
+  flex: 1;
+  height: 100%;
 }
 
 header nav ul {
   background-color: blue;
+  margin: 0;
+  display: flex;
+  flex: 1;
+  height: 100%;
+  padding: 0 20px;
+  justify-content: space-between;
 }
 
 header nav ul li {
   background-color: green;
+  list-style: none;
 }
 
 header nav ul li a {
-  background-color: yellow; 
+  background-color: yellow;
+  display: block;
+  padding: 0 20px;
+  height: 100%;
+}
+
+.brand-icon {
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.brand-icon i {
+  margin-right: 20px;
+  font-size: 75px;
+}
+
+.brand-icon .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.brand-icon .maintitle {
+  font-size: 30px;
+}
+
+.brand-icon .subtitle {
+  font-size: 15px;
 }
 /*header #brand {*/
   /*margin:1em 0;*/
