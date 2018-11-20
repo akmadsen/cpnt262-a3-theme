@@ -14,6 +14,8 @@
 	<?php is_front_page() ? bloginfo('description') : wp_title(''); // if we're on the home page, show the description, from the site's settings - otherwise, show the title of the post or page ?>
 </title>
 
+
+
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php // We are loading our theme directory style.css by queuing scripts in our functions.php file, 
@@ -45,12 +47,14 @@
 >
 
 <header id="masthead" class="site-header">
-	<div class="container center">
-	
-		<nav class="site-navigation main-navigation">
-			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); // Display the user-defined menu in Appearance > Menus ?>
-		</nav><!-- .site-navigation .main-navigation -->
-	</div>
+    <nav class="site-navigation main-navigation">
+        <a>
+            <i class="fas fa-ship"></i>
+            <span>Sechelt</span>
+            <span>Visitor Centre</span>
+        </a>
+        <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); // Display the user-defined menu in Appearance > Menus ?>
+    </nav><!-- .site-navigation .main-navigation -->
 	<div class="center">
 
 		<div id="brand">

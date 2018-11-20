@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Karla|Quicksand);
+@import url(https://use.fontawesome.com/releases/v5.5.0/css/all.css);
 @import url('styles/boots-bones.css');
 /*
 Theme Name: Naked Wordpress
@@ -466,9 +467,8 @@ a:active {
   font-style: italic;
 }
 header {
-  padding: 20px 0;
   background: transparent;
-  margin: 20px auto;
+  width: 100%;
 }
 header .gravatar {
   overflow: hidden;
@@ -480,46 +480,66 @@ header .gravatar {
   margin: 0;
   float: right;
 }
-header #brand {
-  margin:1em 0;
-}
-header #brand h1 {
-  font-weight: 900;
-  color: #565656;
-  font-size: 16px;
-  font-size: 1.6rem;
-  margin: 0;
-  padding: 0;
-  text-transform: uppercase;
-  letter-spacing: 0.45em;
-}
-header #brand h1 a {
-  color: #565656;
-  text-decoration: none;
-}
-header #brand h1 span {
-  font-weight: 200;
-  color: #888888;
-  text-transform: lowercase;
-}
+
 header nav {
-  font-family: "Quicksand", Helvetica, sans-serif;
+  background-color: red;
+  width: 100%;
+  display: flex;
 }
-.menu-main-nav-container, .menu-main-container {
-  float: right;
-}
+
 header nav ul {
-  list-style: none;
-  margin: 0;
+  background-color: blue;
 }
+
 header nav ul li {
-  float: left;
-  margin: 2px 10px 0 0;
+  background-color: green;
 }
+
 header nav ul li a {
-  color: #888888;
-  font-size: 14px;
+  background-color: yellow; 
 }
+/*header #brand {*/
+  /*margin:1em 0;*/
+/*}*/
+/*header #brand h1 {*/
+  /*font-weight: 900;*/
+  /*color: #565656;*/
+  /*font-size: 16px;*/
+  /*font-size: 1.6rem;*/
+  /*margin: 0;*/
+  /*padding: 0;*/
+  /*text-transform: uppercase;*/
+  /*letter-spacing: 0.45em;*/
+/*}*/
+/*header #brand h1 a {*/
+  /*color: #565656;*/
+  /*text-decoration: none;*/
+/*}*/
+/*header #brand h1 span {*/
+  /*font-weight: 200;*/
+  /*color: #888888;*/
+  /*text-transform: lowercase;*/
+/*}*/
+/*header nav {*/
+  /*font-family: "Quicksand", Helvetica, sans-serif;*/
+/*}*/
+/*.menu-main-nav-container, .menu-main-container {*/
+  /*float: right;*/
+/*}*/
+/*header nav ul {*/
+  /*list-style: none;*/
+  /*margin: 0;*/
+/*}*/
+/*header nav ul li {*/
+  /*float: left;*/
+  /*margin: 2px 10px 0 0;*/
+/*}*/
+/*header nav ul li a {*/
+  /*color: #888888;*/
+  /*font-size: 14px;*/
+/*}*/
+
+
 /* Posts/Articles
 -------------------------------------------------------------- */
 article {
