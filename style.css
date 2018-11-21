@@ -1,5 +1,7 @@
+/* EXTERNAL CDNS */
 @import url(http://fonts.googleapis.com/css?family=Quando|Judson|Montserrat);
 @import url(https://use.fontawesome.com/releases/v5.5.0/css/all.css);
+
 @import url('styles/boots-bones.css');
 @import url('styles/base.css');
 
@@ -11,11 +13,15 @@
   --link-font: 'Montserrat', sans-serif;
 }
 
-/* My Header Styles */
+/***************************************
+ * My Header Styles
+ ***************************************/
 header nav {
   background-color: var(--brand-color);
   width: 100%;
   height: 125px;
+
+  position: sticky;
 }
 
 header nav .container {
@@ -30,7 +36,6 @@ header nav .menu-main-menu-container {
 }
 
 header nav ul {
-  background-color: blue;
   margin: 0;
   display: flex;
   flex: 1;
@@ -40,13 +45,11 @@ header nav ul {
 }
 
 header nav ul li {
-  background-color: green;
   list-style: none;
   margin: 0;
 }
 
 header nav ul li a {
-  background-color: yellow;
   padding: 0 20px;
   height: 100%;
   display: flex;
@@ -54,11 +57,11 @@ header nav ul li a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .brand-icon {
-  background-color: orange;
   display: flex;
   align-items: center;
   padding: 0px 20px;
@@ -74,6 +77,8 @@ header nav ul li a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: var(--header-font);
+  max-width: 200px;
 }
 
 .brand-icon .maintitle {
